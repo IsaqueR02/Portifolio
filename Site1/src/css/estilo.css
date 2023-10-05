@@ -2,3 +2,22 @@ body {
     background-color: #75b2e8;
     overflow: hidden;
 }
+
+main .apresentar {
+    height: 300px;
+}
+
+main .Titulo {
+    position: absolute;
+    top: 0;
+}
+main .Apresentação {
+    position: absolute;
+    top: 0;
+    right: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    max-width: 380px;
+}
